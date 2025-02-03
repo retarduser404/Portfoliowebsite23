@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1a242f;
+    color: #f0f6fc;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222f3e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background: #283a4e;
+}
+
+
+header h1 {
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-box {
+    background: #222f3e;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.intro-box h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #f0f6fc;
+}
+
+.intro-box p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #ffd700;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.skills-container span {
+    background: #ffd700;
+    color: #1a242f;
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin: 8px;
+    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.skills-container span:hover {
+    transform: scale(1.1);
+    background: #ffc107;
+    color: #151e29;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    min-width: 300px;
+    width: 320px;
+    background: #222f3e;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.project h3 {
+    color: #f0f6fc;
+}
+
+.project p {
+    color: #d0e8fa;
+}
+
+.project .btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #1a242f;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project .btn:hover {
+    background: #ffc107;
+    color: #151e29;
+
+}
+
+
+.certificates-container ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.certificates-container li {
+    margin: 15px 0;
+}
+
+.certificates-container a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: 600;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.certificates-container a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #1a242f;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffc107;
+    color: #151e29;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 25px 20px;
+    background: #222f3e;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background: #283a4e;
+}
