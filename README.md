@@ -14,7 +14,6 @@ Welcome to my personal portfolio website! 🎨🚀 This project showcases my ski
 🛠️ Technologies Used
 HTML5
 CSS3
-JavaScript (optional, if you plan to add interactivity later)
 📂 Folder Structure
 bash
 Copy
