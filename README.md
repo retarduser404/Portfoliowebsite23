@@ -1,8 +1,6 @@
 Kartik Pathak | Portfolio
 Welcome to my personal portfolio website! 🎨🚀 This project showcases my skills, projects, certificates, and contact details in a minimalistic and aesthetically pleasing design.
 
-🔗 Live Demo
-[Coming Soon / Add Your Deployed Link Here]
 
 📌 Features
 ✅ Clean and minimalistic design
