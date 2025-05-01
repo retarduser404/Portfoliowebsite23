@@ -1,4 +1,5 @@
 Kartik Pathak | Portfolio
+will be updating this repo soon!
 Welcome to my personal portfolio website! 🎨🚀 This project showcases my skills, projects, certificates, and contact details in a minimalistic and aesthetically pleasing design.
 
 
@@ -26,9 +27,6 @@ Edit
 │── README.md         # This file  
 📜 How to Use
 Clone this repository:
-bash
-Copy
-Edit
 git clone https://github.com/retarduser404/portfolio.git
 Open index.html in your browser.
 Customize the content as per your preferences.
@@ -38,3 +36,4 @@ If you have suggestions or improvements, feel free to fork the repo and submit a
 📬 Contact Me
 📧 Email: kartikpathak883@gmail.com
 💼 LinkedIn: linkedin.com/in/kartik-pathak
+
